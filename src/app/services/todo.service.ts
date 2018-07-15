@@ -12,25 +12,28 @@ export class TodoService {
 
   getTodoList()
   {
-    this.firebasedb.list('titles');
+   this.todoList =  this.firebasedb.list('titles');
     return this.todoList;
   }
 
-  addTodo()
+  addTodo(title: string)
   {
-    this.todoList.push
+    this.todoList.push({
+      title: title,
+      isChecked: false
+    });
   }
 
 
- updateTodo()
+ updateTodo($key: string, flag: boolean)
  {
-
+  this.todoList.update($key, {isChecked: flag});
  }
 
 
-removeTodo()
+removeTodo($key)
 {
-
+  this.todoList.remove($key);
 }
 
 
