@@ -12,12 +12,13 @@ export class TodoService {
 
   getTodoList()
   {
-
+    this.firebasedb.list('titles');
+    return this.todoList;
   }
 
   addTodo()
   {
-
+    this.todoList.push
   }
 
 
