@@ -5,7 +5,10 @@ import {AngularFireDatabase, AngularFireList} from 'angularfire2/database';
 })
 export class TodoService {
 
-  constructor() { }
+  todoList: AngularFireList <any>;
+
+
+  constructor(private firebasedb: AngularFireDatabase ) { }
 
   getTodoList()
   {
@@ -28,7 +31,6 @@ removeTodo()
 {
 
 }
-
 
 
 }
