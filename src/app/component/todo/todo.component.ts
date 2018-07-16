@@ -20,7 +20,10 @@ export class TodoComponent implements OnInit {
         let x = element.payload.toJSON();
         x['$key']= element.key;
         this.todoListArray.push(x);
-      } )
+      } );
+      this.todoListArray.sort((a, b)=> {
+        return a.isCheked - b.isCheked;
+       })
     } )
   }
   addTodo(itemTitle)
