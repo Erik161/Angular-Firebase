@@ -9,3 +9,17 @@
     </button>
   </div>
 </div>
+
+<ul class="list-group mt-4">
+  <li class="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+  *ngFor="let todo of todoListArray"
+  >
+  <span class="cursor-hover"
+    [class.text-success]="todo.isChecked"
+   (click)="updateTodo(todo.$key, todo.isChecked)"
+  >
+    <i class="fas fa-check-circle"></i>
+  </span>
+  {{todo.title}}
+  </li>
+</ul>

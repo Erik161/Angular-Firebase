@@ -31,4 +31,11 @@ export class TodoComponent implements OnInit {
     this.todoService.addTodo(itemTitle.value);
     itemTitle.value = null;
   }
+
+updateTodo($key:string, isCheked:boolean){
+  this.todoService.updateTodo($key, !isCheked);
+  
+}
+
+
 }
