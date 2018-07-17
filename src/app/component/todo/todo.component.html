@@ -18,8 +18,15 @@
     [class.text-success]="todo.isChecked"
    (click)="updateTodo(todo.$key, todo.isChecked)"
   >
-    <i class="fas fa-check-circle"></i>
+    <i [ngClass]="todo.isChecked ? 'fas fa-check-circle' : 'far fa-circle' " ></i>
   </span>
   {{todo.title}}
+
+  <span
+  class="text-danger cursor-hover"
+  (click)="deleteTodo($key)"
+  >
+    <i class="far fa-trash-alt"></i>
+  </span>
   </li>
 </ul>

@@ -34,8 +34,16 @@ export class TodoComponent implements OnInit {
 
 updateTodo($key:string, isCheked:boolean){
   this.todoService.updateTodo($key, !isCheked);
-  
+
 }
 
+deleteTodo($key: string)
+{
+  if(confirm('¿Estas seguro que quieres eliminarlo?')){
+    this.todoService.removeTodo($key);
+  }
 
+  
+}
+  
 }
