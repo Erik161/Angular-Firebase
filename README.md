@@ -32,3 +32,29 @@ Al terminar te aparecerá el siguiente mensaje
 ![](imgfirebase/loginfirebasecompleto.png)
 
 Para subir tus archivos a Firebase debes ir a la raiz de tu directorio y copias la direccion o como tambien te puedes ubicar desde la linea de comandos a el proyecto que deseas subir.
+
+>Ingresas el siguiente comando:
+```
+$ firebase init
+```
+Te indicara que inializaste un proyecto.
+![](imgfirebase/loginfirebasemensaje.png)
+
+
+Aceptas con "Y" .
+
+Te hace una pregunta: Cuales son las configuraciones que quieres utilizar con CLi en este caso solo voy a utilizar el de Hosting puede moverme con la flechas para seleccionar una herramienta presiono la tecla barra espaciadora para seleccionar la herramienta de Hosting.
+
+![](imgfirebase/herramienta.png)
+
+Le das enter y se empezara el proyecto.
+
+![](imgfirebase/proceso.png)
+
+Te dejo el siguiente link para que puedas ver mas información oficial.
+
+[FirebaseCli](https://firebase.google.com/docs/cli/)
+
+
+
+
