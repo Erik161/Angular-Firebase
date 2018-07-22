@@ -25,9 +25,10 @@ $ firebase login
 ```
 Luego te aparecerá un Y/N para aceptar al agregar la letra "Y" te enviara automaticamente para que ingreses a tu cuenta.
 
-![](imgfirebase/firebaselogin.png
+![](imgfirebase/firebaselogin.png)
 
 
-
+Al terminar te aparecerá el siguiente mensaje
+![](imgfirebase/loginfirebasecompleto.png)
 
 Para subir tus archivos a Firebase debes ir a la raiz de tu directorio y copias la direccion o como tambien te puedes ubicar desde la linea de comandos a el proyecto que deseas subir.
