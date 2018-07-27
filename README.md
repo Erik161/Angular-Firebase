@@ -1,4 +1,4 @@
-# Angular y Firebase ![](src/favicon.ico)
+# Angular y Firebase 
 
 ![](imgfirebase/angular.png)
 
