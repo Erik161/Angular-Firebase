@@ -1,5 +1,9 @@
 # AngularFirebase
 
+![](src/favicon.ico)
+
+
+
 
 # Cli de Firebase
 >Herramientas de la linea de comandos (CLI) de Firebase; que puedes hacer con estas herramientas.
