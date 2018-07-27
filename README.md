@@ -1,6 +1,6 @@
-# AngularFirebase
+# Angular y Firebase ![](src/favicon.ico)
 
-![](src/favicon.ico)
+
 
 
 
