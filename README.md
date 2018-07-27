@@ -1,6 +1,6 @@
 # Angular y Firebase 
 
-![](imgfirebase/angular.png)
+![](imgfirebase/angular2.png)
 
 
 
